@@ -1,7 +1,6 @@
 //bilangan 1-100 ganjil genap
 document.write("<h1>FOR (ganjil genap)</h1>")
 for (let iFor = 1; iFor <= 100; iFor++) {
-
     if (iFor % 2 == 0) {
         document.write("<span>angka Genap : </span>" + iFor + "<br>");
     } else {
@@ -13,7 +12,6 @@ document.write("<h1>WHILE (ganjil genap)</h1>");
 let iWhile = 1;
 
 while (iWhile <= 100) {
-
     if (iWhile % 2 == 0) {
         document.write("<span>angka Genap : </span>" + iWhile + "<br>");
     } else {
@@ -56,8 +54,8 @@ while (xWhile <= 2024) {
 }
 
 document.write("<h1>DO WHILE (tahun kabisat)</h1>");
-
 let xDoWhile = 2000;
+
 do {
     if (xDoWhile % 4 == 0) {
         document.write(xDoWhile + "<span> merupakan tahun kabisat!</span><br>");
