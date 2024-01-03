@@ -63,3 +63,33 @@ do {
     xDoWhile++
 
 } while (xDoWhile <= 2024);
+
+document.write("=========================================");
+document.write("<h1>Factorial</h1>");
+
+let faktor1 = 1;
+for (let y = 1; y <= 5; y++){
+    faktor1 *= y;
+}
+document.write(faktor1);
+document.write("<br>");
+
+let faktor2 = 1;
+let j = 1;
+while (j <= 5){
+    faktor2 *= j;
+    j++
+}
+
+document.write(faktor2);
+document.write("<br>");
+
+let faktor3 = 1
+let k = 1;
+do {
+    faktor3 *= k
+    k++
+} while (k <= 5);
+
+document.write(faktor3);
+
