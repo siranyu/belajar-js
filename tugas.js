@@ -37,27 +37,45 @@ document.write("<p>=============================================================
 
 //tahun kabisat
 document.write("<h1>FOR (tahun kabisat)</h1>");
-for (let xFor = 2000; xFor <= 2024; xFor++) {
-    if (xFor % 4 == 0) {
+for (let xFor = 1600; xFor <= 2024; xFor++) {
+    if (xFor % 4 != 0) {
+        document.write(xFor + "<span> bukan merupakan tahun kabisat!</span><br>");
+    } else if(xFor % 100 != 0){
+        document.write(xFor + "<span> merupakan tahun kabisat!</span><br>");
+    } else if(xFor % 400 != 0){
+        document.write(xFor + "<span> bukan merupakan tahun kabisat!</span><br>");
+    } else{
         document.write(xFor + "<span> merupakan tahun kabisat!</span><br>");
     }
 }
 
 document.write("<h1>WHILE (tahun kabisat)</h1>");
-let xWhile = 2000;
+let xWhile = 1600;
 
 while (xWhile <= 2024) {
-    if (xWhile % 4 == 0) {
+    if (xWhile % 4 != 0) {
+        document.write(xWhile + "<span> bukan merupakan tahun kabisat!</span><br>");
+    } else if(xWhile % 100 != 0){
+        document.write(xWhile + "<span> merupakan tahun kabisat!</span><br>");
+    } else if(xWhile % 400 != 0){
+        document.write(xWhile + "<span> bukan merupakan tahun kabisat!</span><br>");
+    } else{
         document.write(xWhile + "<span> merupakan tahun kabisat!</span><br>");
     }
     xWhile++;
 }
 
 document.write("<h1>DO WHILE (tahun kabisat)</h1>");
-let xDoWhile = 2000;
+let xDoWhile = 1600;
 
 do {
-    if (xDoWhile % 4 == 0) {
+    if (xDoWhile % 4 != 0) {
+        document.write(xDoWhile + "<span> bukan merupakan tahun kabisat!</span><br>");
+    } else if(xDoWhile % 100 != 0){
+        document.write(xDoWhile + "<span> merupakan tahun kabisat!</span><br>");
+    } else if(xDoWhile % 400 != 0){
+        document.write(xDoWhile + "<span> bukan merupakan tahun kabisat!</span><br>");
+    } else{
         document.write(xDoWhile + "<span> merupakan tahun kabisat!</span><br>");
     }
     xDoWhile++
