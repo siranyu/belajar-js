@@ -28,10 +28,7 @@ let rombelTertinggi = rombel[indexTertinggi];
 let terendah = Math.min(...totalNilai);
 
 // output
-for(let x = 0; x < nama.length; x++){
-    console.log(nama[x]);
-}
-
+console.log(...nama);
 console.log("Rombel dengan nilai tertinggi: " + rombelTertinggi);
 console.log("Nilai rata-rata dari 10 siswa: " + rataRata);
 console.log("Nilai terendah dari 10 siswa: " + terendah);
