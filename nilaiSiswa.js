@@ -18,7 +18,7 @@ for (let i = 0; i < 10; i++) {
 }
 
 // rata-rata
-let rataRata = totalNilai.reduce((a, b) => a + b, 0) / totalNilai.length;
+let rataRata = totalNilai.reduce((total, nilai) => total += nilai, 0) / totalNilai.length;
 
 // rombel dengan nilai total tertinggi
 let indexTertinggi = totalNilai.indexOf(Math.max(...totalNilai));
