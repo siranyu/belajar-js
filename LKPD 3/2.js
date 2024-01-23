@@ -10,4 +10,3 @@ ratusan = Math.floor((angka % 1000) / 100);
 console.log(`satuan : ${satuan}`);
 console.log(`puluhan : ${puluhan}`);
 console.log(`ratusan : ${ratusan}`);
-

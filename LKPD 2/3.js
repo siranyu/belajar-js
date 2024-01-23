@@ -9,6 +9,6 @@ sisa = totDetik % 3600;
 menit = Math.floor(sisa/60);
 detik = sisa % 60;
 
-console.log("jam : " + jam);
-console.log("menit : " + menit);
-console.log("detik : " + detik);
+console.log(`jam : ${jam}`);
+console.log(`menit : ${menit}`);
+console.log(`detik : ${detik}`);

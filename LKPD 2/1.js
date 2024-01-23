@@ -9,6 +9,6 @@ pjk = 15/100 * (gaji_pokok + tunj);
 gaji_bersih = (gaji_pokok + tunj) - pjk;
 
 console.log(nama);
-console.log("gaji bersih karyawan adalah : " + gaji_bersih);
-console.log("pajak karyawan adalah : " + pjk);
-console.log("tunjangan karyawan adalah : " + tunj);
+console.log(`gaji bersih karyawan adalah ${gaji_bersih}`);
+console.log(`pajak karyawan adalah ${pjk}`);
+console.log(`tunjangan karyawan adalah ${tunj}`);

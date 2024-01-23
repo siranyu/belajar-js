@@ -8,5 +8,5 @@ if(celcius > 300){
 } else if (celcius < 250){
     console.log("Dingin");
 } else{
-    console.log("Normal")
-}
+    console.log("Normal");
+} 

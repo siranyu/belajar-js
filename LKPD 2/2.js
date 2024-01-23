@@ -6,7 +6,6 @@ let totalDetik;
 jam *= 3600;
 menit *= 60;
 
-totalDetik = jam + menit + detik
+totalDetik = jam + menit + detik;
 
-console.log(totalDetik)
-
+console.log(totalDetik);

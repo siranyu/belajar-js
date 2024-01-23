@@ -56,6 +56,6 @@ switch (mm){
 
 console.log(g);
 console.log(dd);
-console.log(mm + " yaitu bulan : " + bulan);
+console.log(`${mm} yaitu bulan : ${bulan}`);
 console.log(yyyy);
 console.log(nn);
