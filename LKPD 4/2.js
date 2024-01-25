@@ -1,4 +1,4 @@
-let kode = 12345678910; //input 11 digit
+let kode = 13311199902; //input 11 digit
 let g;
 let dd;
 let mm;

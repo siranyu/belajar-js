@@ -21,5 +21,5 @@ if (ss + 1 == 60) {
 } else {
     ss++;
 }
- 
+  
 console.log(`Jam ${hh}, Menit ${mm}, Detik ${ss}`);

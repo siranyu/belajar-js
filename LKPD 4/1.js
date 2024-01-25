@@ -18,4 +18,4 @@ if(avg <= 100 && avg >= 80){
     console.log("E")
 } else{
     console.log("K")
-}
+} 
