@@ -10,7 +10,7 @@ g = Math.floor(kode/10000000000);
 dd = Math.floor((kode/100000000) % 100);
 mm = Math.floor((kode/1000000) % 100);
 yyyy = Math.floor((kode/100) % 10000);
-nn = Math.floor(kode % 1000000000);
+nn = Math.floor((kode % 1000000000) % 100);
 
 switch (mm){
     case 1:
