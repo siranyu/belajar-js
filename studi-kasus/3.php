@@ -24,11 +24,11 @@ $data = [
 
 //Cara 1 (di Cek Langsung Kabisatnya)
 
-foreach ($data as $list2){
-    if ($list2["tahun"] % 4 == 0){
-        echo $list2['nama'] . " : Lahir Pada Tahun Kabisat ({$list2['tahun']})" . "<br>";  
+foreach ($data as $list){
+    if ($list["tahun"] % 4 == 0){
+        echo $list['nama'] . " : Lahir Pada Tahun Kabisat ({$list['tahun']})" . "<br>";  
     } else{
-        echo $list2['nama'] . " : BUKAN Lahir Pada Tahun Kabisat ({$list2['tahun']})" . "<br>";  
+        echo $list['nama'] . " : BUKAN Lahir Pada Tahun Kabisat ({$list['tahun']})" . "<br>";  
     }
 }
 
@@ -52,6 +52,6 @@ function isKabisat($tahun)
     }
 }
 
-foreach ($data as $list){
-    echo $list['nama'] . " : " . isKabisat($list['tahun']) . " ({$list['tahun']})" . "<br>"; 
+foreach ($data as $list2){
+    echo $list2['nama'] . " : " . isKabisat($list2['tahun']) . " ({$list2['tahun']})" . "<br>"; 
 }
