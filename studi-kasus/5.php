@@ -63,12 +63,14 @@
 
 
 //nilai perbaikan (replace data di array) dan di urutkan dari yang terbesar
-    ksort($nilai_saya);  //gunanya untuk meng-RESET urutan data dari array yg sudah di sortir
+    ksort($nilai_saya);  //RESET urutan data dari array yg sudah di sortir
     $indexTerkecil = array_search($terkecil, array_values($nilai_saya));
 
-    $nilai_saya[$indexTerkecil] = 75;    
+    $nilai_perbaikan = 75;
+    $nilai_saya[$indexTerkecil] = $nilai_perbaikan;    
 
-    echo "Setelah melakukan perbaikan untuk nilai <b>$terkecil</b>, saya mendapat nilai <b>75</b>. Jadi nilai saya sekarang : ";
+
+    echo "Setelah melakukan perbaikan untuk nilai <b>$terkecil</b>, saya mendapat nilai <b>$nilai_perbaikan</b>. Jadi nilai saya sekarang : ";
 
     foreach ($nilai_saya as $newNilai){
         echo "<b>$newNilai</b>, ";
